@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python test_trading_logic.py)",
+      "Bash(pip install:*)",
+      "Bash(python -c \"import yfinance as yf; data = yf.download\\(''SPY'', period=''5d'', progress=False\\); print\\(f''Downloaded {len\\(data\\)} rows''\\); print\\(data.head\\(\\)\\)\")",
+      "Bash(python -m pip list)",
+      "Bash(echo \"ANDROID_SDK_ROOT=$ANDROID_SDK_ROOT\")",
+      "Read(//c/Users/User/OneDrive - Esyasoft Technologies Pvt. Ltd/Work/Python_codes/Equity_Exit_Reentry/HTML-Python_based_Equity_Analyzer/**)"
+    ]
+  }
+}
